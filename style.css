@@ -23,10 +23,16 @@ body {
 
 #main {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   margin-top: 5em;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
 }
 
 #main-container {
@@ -36,8 +42,17 @@ body {
   max-width: 80vw;
 }
 
+#foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  margin-top: 5em;
+}
+
 #foot-card {
-  height: 300vh;
+  /* height: 300vh; */
 }
 
 .card {
@@ -47,6 +62,24 @@ body {
   min-height: 15vh;
   max-height: 25vh;
   margin-bottom: 2em;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 80%;
+  background-color: black;
+  color: lime;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+button:hover {
+  background-color: lime;
+  color: black;
 }
 
 *.is-primary {
@@ -63,7 +96,8 @@ body {
 }
 
 .image {
-  padding: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
   max-height: 60vh;
 }
 
