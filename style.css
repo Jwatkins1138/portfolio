@@ -1,32 +1,50 @@
 html {
-  background: no-repeat url('assets/background.jpg');
+  background: no-repeat url('assets/background.jpg') fixed;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #head {
   display: flex;
+  align-items: center;
+  max-width: 80vw;
+  margin-top: 5em;
 }
 
 #portrait {
-  height: 150px;
+  height: 60vh;
 }
 
 #main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 80vw;
+  margin-top: 5em;
+}
+
+#foot-card {
+  height: 300vh;
 }
 
 .card {
-  width: 32em;
+  padding: 1em;
+  width: 20vw;
+  min-height: 15vh;
+  max-height: 25vh;
+  margin-bottom: 2em;
 }
 
 *.is-primary {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+*.is-secondary {
+  background-color: darkslategrey;
 }
 
 *.has-text-primary {
