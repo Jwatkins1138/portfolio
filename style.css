@@ -62,6 +62,7 @@ body {
   min-height: 15vh;
   max-height: 25vh;
   margin-bottom: 2em;
+  border: 1px solid rgba(24, 236, 77, 0.3);
 }
 
 .card-footer {
@@ -88,7 +89,6 @@ button:hover {
 
 *.is-secondary {
   background-color: black;
-  border: 1px solid rgba(24, 236, 77, 0.3);
 }
 
 *.has-text-primary {
@@ -104,7 +104,6 @@ button:hover {
 figure {
   height: 65vh;
   text-align: center;
-  border: 1px solid rgba(24, 236, 77, 0.3);
 }
 
 #caption {
