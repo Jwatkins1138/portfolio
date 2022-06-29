@@ -18,7 +18,7 @@ body {
 }
 
 #portrait {
-  height: 60vh;
+  /* height: 60vh; */
 }
 
 #main {
@@ -64,4 +64,15 @@ body {
 
 .image {
   padding: 5px;
+  max-height: 60vh;
+}
+
+figure {
+  height: 65vh;
+  text-align: center;
+  border: 1px solid rgba(24, 236, 77, 0.3);
+}
+
+#caption {
+  transform: translateY(-200%);
 }
