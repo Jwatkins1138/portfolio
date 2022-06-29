@@ -1,0 +1,38 @@
+html {
+  background: no-repeat url('assets/background.jpg');
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#head {
+  display: flex;
+}
+
+#portrait {
+  height: 150px;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 32em;
+}
+
+*.is-primary {
+  background-color: black;
+}
+
+*.has-text-primary {
+  color: white;
+}
+
+.image {
+  padding: 5px;
+}
