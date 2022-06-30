@@ -69,13 +69,20 @@ body {
   width: 80vw;
 }
 
+#foot-body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: space-between;
+}
+
 #foot-card {
   border: 2px solid rgb(255, 69, 0, .3)
 }
 
 #head-card {
   border: 2px solid rgb(65, 105, 225, .3);
-  min-width: 25em;
+  min-width: 10em;
   max-width: 20em;
 }
 
