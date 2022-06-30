@@ -3,6 +3,18 @@ html {
   background: no-repeat url('assets/background.jpg') fixed;
 }
 
+/* .background-container {
+  background: url('assets/background.jpg');
+  background-size:100vw auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+  z-index: -1000;
+} */
+
+
 body {
   display: flex;
   flex-direction: column;
@@ -14,7 +26,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 110vw;
   margin-top: 5em;
 }
 
@@ -27,7 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 110vw;
   margin-top: 5em;
 }
 
@@ -47,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 110vw;
   margin-top: 5em;
 }
 
@@ -73,7 +85,7 @@ body {
 
 .card-image {
   
-  min-width: 10em;
+  min-width: 8em;
   max-width: 20em;
 }
 
