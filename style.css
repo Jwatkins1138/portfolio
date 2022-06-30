@@ -74,8 +74,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 80vw;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-content: center;
+  margin-bottom: 3em;
 }
 
 #foot-card {
@@ -156,8 +157,13 @@ button:hover {
 .image {
   padding-left: 1em;
   padding-right: 1em;
+  max-height: 60vh;
+}
+
+.foot-image {
+  padding-left: 1em;
+  padding-right: 1em;
   max-width: 20em;
-  margin-bottom: 2em;
 }
 
 figure {
