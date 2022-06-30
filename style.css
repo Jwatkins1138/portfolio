@@ -61,6 +61,7 @@ body {
   align-items: center;
   width: 110vw;
   margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 #foot-header {
@@ -74,6 +75,7 @@ body {
   flex-wrap: wrap;
   width: 80vw;
   justify-content: space-between;
+  align-content: center;
 }
 
 #foot-card {
@@ -102,6 +104,11 @@ body {
   
   min-width: 8em;
   max-width: 20em;
+  transition: transform .25s ease-out .25s;
+}
+
+.card-image:hover {
+  transform: scale(2, 2);
 }
 
 .card-footer {
@@ -149,7 +156,8 @@ button:hover {
 .image {
   padding-left: 1em;
   padding-right: 1em;
-  max-height: 60vh;
+  max-width: 20em;
+  margin-bottom: 2em;
 }
 
 figure {
