@@ -73,6 +73,12 @@ body {
   border: 2px solid rgb(255, 69, 0, .3)
 }
 
+#head-card {
+  border: 2px solid rgb(65, 105, 225, .3);
+  min-width: 25em;
+  max-width: 20em;
+}
+
 .card {
   padding: 1em;
   margin: 1em;
