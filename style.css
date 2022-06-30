@@ -76,11 +76,12 @@ body {
   width: 80vw;
   justify-content: flex-end;
   align-content: center;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 #foot-card {
   border: 2px solid rgb(255, 69, 0, .3);
+  min-width: 15em;
   display: flex;
 
 }
