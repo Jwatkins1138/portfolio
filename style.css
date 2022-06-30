@@ -58,7 +58,7 @@ body {
 }
 
 #foot-card {
-  /* height: 300vh; */
+  border: 2px solid rgb(255, 69, 0, .3)
 }
 
 .card {
@@ -68,11 +68,12 @@ body {
   max-width: 20em;
   min-height: 10em;
   margin-bottom: 2em;
-  border: 1px solid rgba(24, 236, 77, 0.3);
+  border: 2px solid rgba(24, 236, 77, 0.3);
 }
 
 .card-image {
   width: 20em;
+  min-width: 10em;
 }
 
 .card-footer {
