@@ -277,6 +277,6 @@ figure {
   transform: translateY(-200%);
 }
 
-.icon:hover {
-  color: lime;
+.icon {
+  height: 1.5em;
 }
