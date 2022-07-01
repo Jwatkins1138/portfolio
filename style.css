@@ -65,6 +65,14 @@ body {
   margin-top: 5em;
 }
 
+#sub-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110vw;
+}
+
 #main-header {
   display: flex;
   width: 80vw;
