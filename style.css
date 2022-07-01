@@ -168,14 +168,14 @@ body {
 
 .project-card {
   min-width: none;
-  max-width: none;
+  max-width: 30em;
   min-height: none;
 }
 
 .project-body {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  /* width: 40vw; */
 }
 
 .card-image {
