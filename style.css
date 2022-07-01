@@ -191,10 +191,10 @@ body {
 
 .large-img {
   max-width: 50vw;
-  transition: transform .25s ease-out .25s;
+  transition: transform .25s ease-in-out .25s;
 }
 
-.large-img:hover {
+.large-img:active {
   transform: scale(2, 2)
 }
 
