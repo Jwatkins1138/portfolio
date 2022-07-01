@@ -38,8 +38,22 @@ body {
   width: 110vw;
 }
 
-#portrait {
-  /* height: 60vh; */
+.sub-head-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.sub-head-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sub-head-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #main {
@@ -120,6 +134,18 @@ body {
   border: 2px solid rgba(24, 236, 77, 0.3);
   display: flex;
   flex-direction: column;
+}
+
+.project-card {
+  min-width: none;
+  max-width: none;
+  min-height: none;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
 }
 
 .card-image {
@@ -213,5 +239,5 @@ figure {
 }
 
 .icon:hover {
-  border: 3px solid rgb(0, 255, 0, .3);
+  color: lime;
 }
