@@ -278,5 +278,5 @@ figure {
 }
 
 .icon {
-  height: 1.5em;
+  max-height: 30px;
 }
