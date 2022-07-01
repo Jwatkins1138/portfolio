@@ -3,6 +3,21 @@ html {
   background: url('assets/background.jpg') fixed;
 }
 
+:root {
+  --svgcolor: lime;
+}
+
+image {
+  --svgcolor: lime;
+}
+
+svg {
+  fill: lime;
+}
+
+.svg-green {
+  fill: lime;
+}
 /* .background-container {
   background: url('assets/background.jpg');
   background-size:100vw auto;
@@ -221,6 +236,10 @@ button:hover {
 *.has-text-danger {
   color: orangered;
 }
+
+/* .is-svg-green {
+  fill: lime;
+} */
 
 .image {
   padding-left: 1em;
