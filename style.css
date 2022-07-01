@@ -175,7 +175,7 @@ body {
 .project-body {
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 40vw;
 }
 
 .card-image {
@@ -190,7 +190,12 @@ body {
 }
 
 .large-img {
-  max-width: 80vw;
+  max-width: 50vw;
+  transition: transform .25s ease-out .25s;
+}
+
+.large-img:hover {
+  transform: scale(2, 2)
 }
 
 .card-footer {
