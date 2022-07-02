@@ -192,6 +192,12 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .card {
+    max-width: 100vw;
+  }
+}
+
 .project-card {
   min-width: none;
   max-width: 30em;
