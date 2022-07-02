@@ -82,6 +82,14 @@ body {
   margin-top: 5em;
 }
 
+#projects-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110vw;
+}
+
 #sub-main {
   display: flex;
   flex-direction: column;
