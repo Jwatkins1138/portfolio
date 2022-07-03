@@ -198,6 +198,10 @@ body {
   justify-content: space-between;
 }
 
+.about-card {
+  max-width: 30em;
+  border: 2px solid rgb(65, 105, 225, .3)
+}
 
 .project-card {
   min-width: none;
