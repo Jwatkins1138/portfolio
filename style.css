@@ -333,3 +333,7 @@ figure {
 .spacer {
   padding: 1em;
 }
+
+.big-spacer {
+  padding: 3em;
+}
