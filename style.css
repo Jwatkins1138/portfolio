@@ -15,19 +15,33 @@ svg {
   fill: lime;
 }
 
-.svg-green {
-  fill: lime;
+@font-face {
+  font-family: 'carbon';
+  src: url('./assets/CarbonBlock.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  size-adjust: 130%;
 }
-/* .background-container {
-  background: url('assets/background.jpg');
-  background-size:100vw auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: 100vw;
-  z-index: -1000;
-} */
+
+h1 {
+  font-family: 'carbon';
+}
+
+h2 {
+  font-family: 'carbon';
+}
+
+h3 {
+  font-family: 'carbon';
+}
+
+h4 {
+  font-family: 'carbon';
+}
+
+h5 {
+  font-family: 'carbon';
+}
 
 
 body {
@@ -295,9 +309,6 @@ button:hover {
   color: orangered;
 }
 
-/* .is-svg-green {
-  fill: lime;
-} */
 
 .image {
   padding-left: 1em;
