@@ -23,6 +23,11 @@ svg {
   size-adjust: 130%;
 }
 
+a {
+  color: orange;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'carbon';
 }
