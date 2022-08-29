@@ -238,6 +238,7 @@ body {
   
   min-width: 8em;
   max-width: 20em;
+  will-change: transform;
   transition: transform .25s ease-out .25s;
 }
 
@@ -247,6 +248,7 @@ body {
 
 .large-img {
   max-width: 50vw;
+  will-change: transform;
   transition: transform .25s ease-in-out .25s;
 }
 
